@@ -36,7 +36,20 @@
             <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
         </orientations>
     </iphone>
-    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    
+    
+    <android xmlns:android="http://schemas.android.com/apk/res/android" >
+	    <manifest>
+	        <supports-screens android:anyDensity="false" />
+	        <application>
+                <activity android:screenOrientation="portrait" android:name="org.appcelerator.titanium.TiActivity" />
+            </application>
+	    </manifest>
+	</android>
+    
+    
+    
+    
     <mobileweb>
         <precache/>
         <splash>
