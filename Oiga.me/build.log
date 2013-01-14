@@ -3,14 +3,13 @@ Logfile initialized
 [DEBUG] /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/builder.py install Oiga.me /Users/Addiel/developer/android-sdk-macosx /Users/Addiel/Documents/oigame-android/Oiga.me com.NegoApps.oiga.me 8
 [INFO] Titanium SDK version: 2.1.4 (11/09/12 12:46 51f2c64)
 [DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 2 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.125040 seconds on emulator to get ready
+[DEBUG] waited 3.686388 seconds on emulator to get ready
+[INFO] Waiting for the Android Emulator to become available
 [DEBUG] com.NegoApps.oiga.me installed? False
 [INFO] Copying CommonJS modules...
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/ui/common/AllCampaWin.js => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/assets/Resources/ui/common/AllCampaWin.js
-[TRACE] COPYING MODIFIED FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/ui/common/ApplicationTabGroup.js => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/assets/Resources/ui/common/ApplicationTabGroup.js
 [TRACE] COPYING MODIFIED FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/ui/common/CampaPrincipalesWin.js => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/assets/Resources/ui/common/CampaPrincipalesWin.js
 [TRACE] Generating Java Classes
 [DEBUG] Processing Android resource drawables
@@ -71,6 +70,9 @@ Logfile initialized
 [DEBUG] from resource zip => res/drawable-notlong-port-hdpi/default_d44e27d97b.png
 [DEBUG] from resource zip => res/drawable-notlong-port-ldpi/default_d44e27d97b.png
 [DEBUG] from resource zip => res/drawable-notlong-port-mdpi/default_d44e27d97b.png
+[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/thirdparty.jar => org/apache/Commons-NOTICE.txt
+[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/thirdparty.jar => org/apache/HttpComponents-NOTICE.txt
+[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/thirdparty.jar => org/apache/mime4j-NOTICE.txt
 [DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
 [DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
 [DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
@@ -91,8 +93,8 @@ Logfile initialized
 [DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
 [DEBUG] installing native SDK libs
 [DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 2 devices/emulators
+[TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.053856 seconds on emulator to get ready
+[DEBUG] waited 0.134440 seconds on emulator to get ready
 [INFO] Installing application on device
 [INFO] Application installed. Launch from drawer on Home Screen

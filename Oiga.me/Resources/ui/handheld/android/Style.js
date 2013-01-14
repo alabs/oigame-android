@@ -1,7 +1,7 @@
 exports.CampaPrincipalesWin = {
 	self:
 	{
-		backgroundColor:'red',
+		backgroundColor:'#fff',
 		navBarHidden:true,
 		exitOnClose:true,
 		orientationModes:[Titanium.UI.PORTRAIT],
