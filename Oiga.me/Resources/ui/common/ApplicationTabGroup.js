@@ -1,27 +1,38 @@
 function ApplicationTabGroup(Window) {
 	
 	var self = Ti.UI.createTabGroup();
-	var CampaPrincipales = require('ui/common/CampaPrincipales');
-	var campaPrincipales = new CampaPrincipales();
-	var win1 = new Window('Campañas Principales'),
-		win2 = new Window('Todas las Campañas');
+	var CampaPrincipalesWin = require('ui/common/CampaPrincipalesWin');
+	var AllCampaWin = require('ui/common/AllCampaWin');
+	var SearchWin = require('ui/common/SearchWin');
+	var campaPrincipalesWin = new CampaPrincipalesWin();
+	var allCampaWin = new AllCampaWin();
+	var searchWin = new SearchWin();
+	
 	
 	var tab1 = Ti.UI.createTab({
 		title: 'Campañas Principales',
-		icon: 'android/images/KS_nav_ui.png',
-		window: campaPrincipales
+		icon: 'KS_nav_ui.png',
+		window: campaPrincipalesWin,
 	});
-	win1.containingTab = tab1;
+	campaPrincipalesWin.containingTab = tab1;
 	
 	var tab2 = Ti.UI.createTab({
 		title: 'Todas las Campañas',
-		icon: 'android/images/KS_nav_views.png',
-		window: win2
+		icon: 'KS_nav_views.png',
+		window: allCampaWin,
 	});
-	win2.containingTab = tab2;
+	allCampaWin.containingTab = tab2;
+	
+	var tab3 = Ti.UI.createTab({
+		title: 'Busqueda',
+		icon: 'KS_nav_views.png',
+		window: searchWin,
+	});
+	searchWin.containingTab = tab2;
 	
 	self.addTab(tab1);
 	self.addTab(tab2);
+	self.addTab(tab3);
 	
 	return self;
 };
