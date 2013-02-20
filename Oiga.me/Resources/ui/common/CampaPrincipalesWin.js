@@ -17,7 +17,8 @@ function CampaPrincipalesWin() {
 	    
 	    main = json[i];
 	    row = Ti.UI.createTableViewRow({
-	        height:'60dp'
+	        height:'100dp',
+	        rowID:i,
 	    });
 	    test = Ti.UI.createLabel({
 	        text:main.body,
@@ -53,6 +54,11 @@ function CampaPrincipalesWin() {
 		 // Send the request.
 		 xhr.send(); 
 	self.add(table)
+	
+	
+	table.addEventListener('click', function(e){
+		alert(e.source.rowID);
+	});
 	
 	return self;
 }

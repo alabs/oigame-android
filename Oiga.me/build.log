@@ -5,8 +5,7 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 3.686388 seconds on emulator to get ready
-[INFO] Waiting for the Android Emulator to become available
+[DEBUG] waited 0.232240 seconds on emulator to get ready
 [DEBUG] com.NegoApps.oiga.me installed? False
 [INFO] Copying CommonJS modules...
 [INFO] Copying project resources..
@@ -95,6 +94,6 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.134440 seconds on emulator to get ready
+[DEBUG] waited 0.034652 seconds on emulator to get ready
 [INFO] Installing application on device
 [INFO] Application installed. Launch from drawer on Home Screen
