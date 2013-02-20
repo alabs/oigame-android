@@ -11,7 +11,7 @@ exports.CampaPrincipalesWin = {
 exports.AllCampaWin = {
 	self:
 	{
-		backgroundColor:'blue',
+		backgroundColor:'#fff',
 		navBarHidden:true,
 		exitOnClose:true,
 		orientationModes:[Titanium.UI.PORTRAIT],
@@ -21,9 +21,17 @@ exports.AllCampaWin = {
 exports.SearchWin = {
 	self:
 	{
-		backgroundColor:'#00000',
+		backgroundColor:'#fff',
 		navBarHidden:true,
 		exitOnClose:true,
 		orientationModes:[Titanium.UI.PORTRAIT],
+	}
+}
+
+
+
+exports.AllDetail = {
+	self:{
+		backgroundColor:'#fff',
 	}
 }

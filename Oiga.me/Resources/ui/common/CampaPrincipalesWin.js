@@ -13,7 +13,7 @@ function CampaPrincipalesWin() {
 	// Ti.API.debug(this.responseText);
 		
 	json = JSON.parse(this.responseText);
-	for (i = 0; i < json.length; i++) {
+	for (i = 1; i < json.length; i++) {
 	    
 	    main = json[i];
 	    row = Ti.UI.createTableViewRow({
