@@ -5,15 +5,20 @@ Logfile initialized
 [INFO] Titanium SDK version: 2.1.4 (11/09/12 12:46 51f2c64)
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
-[DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 1.806613 seconds on emulator to get ready
+[TRACE] adb devices returned 2 devices/emulators
+[TRACE] adb devices returned 2 devices/emulators
+[TRACE] adb devices returned 2 devices/emulators
+[TRACE] adb devices returned 2 devices/emulators
+[TRACE] adb devices returned 2 devices/emulators
+[TRACE] adb devices returned 2 devices/emulators
+[TRACE] adb devices returned 2 devices/emulators
+[DEBUG] Device connected... (waited 35 seconds)
+[DEBUG] waited 36.344682 seconds on emulator to get ready
 [INFO] Waiting for the Android Emulator to become available
-[ERROR] Timed out waiting for android.process.acore
 [DEBUG] com.NegoApps.oiga.me installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying CommonJS modules...
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/ui/common/AllDetail.js => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/assets/Resources/ui/common/AllDetail.js
 [INFO] Tiapp.xml unchanged, skipping class generation
 [DEBUG] Processing Android resource drawables
 [DEBUG] found drawable-long-land-hdpi splash screen at /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-long-land-hdpi/default.png
@@ -25,5 +30,4 @@ Logfile initialized
 [INFO] Re-launching application ... Oiga.me
 [INFO] Launching application ... Oiga.me
 [TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.NegoApps.oiga.me/.OigaMeActivity }
-Warning: Activity not started, its current task has been brought to the front
 

@@ -1,12 +1,12 @@
 function AllDetail(){
 	var style =  require('ui/handheld/android/Style');
 	var self = Titanium.UI.createWindow(style.AllDetail.self);
-	var table = Ti.UI.createTableView();
+	
 	var url = "https://oiga.me/campaigns.json";
 	var json,  main;
  	
  	var barraShared = Titanium.UI.createView({
- 		top:'210dp',
+ 		top:'200dp',
  		height:'30dp',
  		width:'100%',
  		backgroundColor:'red',
@@ -38,11 +38,29 @@ function AllDetail(){
 				image:'https://oiga.me'+main.image.home.url
 			});
 			
+			var titulo = Ti.UI.createLabel({
+		        text:main.name,
+		        font:{
+		            fontSize:'15dp',
+			    	fontWeight:'bold'
+			    },
+				height:'auto',
+				left:'25dp',
+				top:'235dp',
+				color:'#000',
+				touchEnabled:false
+		    });
 		
-			
+			var contenido = Titanium.UI.createWebView({
+				html:main.body,
+				top:'290dp',
+				borderColor:'#000',
+				bottom:'5dp',
+			})
 	     
 			self.add(image);
-			
+			self.add(titulo);
+			self.add(contenido);
 	
 		},
 	 	onerror: function(e) {
@@ -56,7 +74,7 @@ function AllDetail(){
 	
 	xhr.open("GET", url);
 	xhr.send(); 
-	self.add(table)
+	
 	
 	self.add(barraShared);
 	barraShared.add(botonFacebook);

@@ -17,7 +17,7 @@ function AllCampaWin(){
 		    
 		    main = json[i];
 		    row = Ti.UI.createTableViewRow({
-		        height:'50dp',
+		        height:'65dp',
 		        rowID:i,
 		        hasChild:'true',
 		    });
