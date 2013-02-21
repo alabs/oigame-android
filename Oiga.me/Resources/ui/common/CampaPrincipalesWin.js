@@ -7,10 +7,12 @@ function CampaPrincipalesWin() {
 	var Noticia3 = require('ui/common/noticia3');
 	var Noticia4 = require('ui/common/noticia4');
 	var Noticia5 = require('ui/common/noticia5');
+	var AllDetail = require('ui/common/AllDetail');
 	var noticia2 = new Noticia2();
 	var noticia3 = new Noticia3();
 	var noticia4 = new Noticia4();
 	var noticia5 = new Noticia5();
+	
 	 
 	var xhr = Ti.Network.createHTTPClient({
     onload: function() {
@@ -42,7 +44,11 @@ function CampaPrincipalesWin() {
 			left:'5dp',
 		});
 		
-		
+		fotoPrincipal.addEventListener('click', function(e){
+			Titanium.App.Properties.setInt('RowId', 0 );
+			var allDetail = new AllDetail();
+			allDetail.open({modal:true});
+		});
 		
 		self.add(fotoPrincipal);
 		self.add(ContenedorTitle);
@@ -65,6 +71,31 @@ function CampaPrincipalesWin() {
 	self.add(noticia3);
 	self.add(noticia4);
 	self.add(noticia5);
+	
+	noticia2.addEventListener('click', function(e){
+		Titanium.App.Properties.setInt('RowId', 1 );
+		var allDetail = new AllDetail();
+		allDetail.open({modal:true});
+	});
+	
+	noticia3.addEventListener('click', function(e){
+		Titanium.App.Properties.setInt('RowId', 2 );
+		var allDetail = new AllDetail();
+		allDetail.open({modal:true});
+	});
+		
+	noticia4.addEventListener('click', function(e){
+		Titanium.App.Properties.setInt('RowId', 3 );
+		var allDetail = new AllDetail();
+		allDetail.open({modal:true});
+	});
+		
+	noticia5.addEventListener('click', function(e){
+		Titanium.App.Properties.setInt('RowId', 4 );
+		var allDetail = new AllDetail();
+		allDetail.open({modal:true});
+	});
+	
 	
 	return self;
 }

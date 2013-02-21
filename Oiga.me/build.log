@@ -1,106 +1,27 @@
 Logfile initialized
 [INFO] logfile = /Users/Addiel/Documents/oigame-android/Oiga.me/build.log
-[DEBUG] /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/builder.py install Oiga.me /Users/Addiel/developer/android-sdk-macosx /Users/Addiel/Documents/oigame-android/Oiga.me com.NegoApps.oiga.me 8
+[DEBUG] /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/builder.py simulator Oiga.me /Users/Addiel/developer/android-sdk-macosx /Users/Addiel/Documents/oigame-android/Oiga.me com.NegoApps.oiga.me 8 HVGA 
+[INFO] Building Oiga.me for Android ... one moment
 [INFO] Titanium SDK version: 2.1.4 (11/09/12 12:46 51f2c64)
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.034961 seconds on emulator to get ready
-[DEBUG] com.NegoApps.oiga.me installed? False
+[DEBUG] waited 0.042606 seconds on emulator to get ready
+[DEBUG] com.NegoApps.oiga.me installed? True
+[INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying CommonJS modules...
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/ui/common/noticia3.js => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/assets/Resources/ui/common/noticia3.js
-[TRACE] COPYING MODIFIED FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/ui/common/noticia4.js => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/assets/Resources/ui/common/noticia4.js
-[TRACE] COPYING MODIFIED FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/ui/common/noticia5.js => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/assets/Resources/ui/common/noticia5.js
-[TRACE] Generating Java Classes
+[TRACE] COPYING MODIFIED FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/ui/common/CampaPrincipalesWin.js => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/assets/Resources/ui/common/CampaPrincipalesWin.js
+[INFO] Tiapp.xml unchanged, skipping class generation
 [DEBUG] Processing Android resource drawables
-[TRACE] COPYING FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-long-port-hdpi/Default.png => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/res/drawable-long-port-hdpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-long-port-ldpi/Default.png => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/res/drawable-long-port-ldpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-notlong-port-hdpi/Default.png => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/res/drawable-notlong-port-hdpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-notlong-port-ldpi/Default.png => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/res/drawable-notlong-port-ldpi/default_d44e27d97b.png
-[TRACE] COPYING FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-notlong-port-mdpi/Default.png => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/res/drawable-notlong-port-mdpi/default_d44e27d97b.png
-[DEBUG] copying app icon: /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/assets/Resources/appicon.png
-[DEBUG] generating theme.xml
 [DEBUG] found drawable-long-land-hdpi splash screen at /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-long-land-hdpi/default.png
-[DEBUG] copying /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-long-land-hdpi/default.png splash screen to /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/res/drawable-long-land-hdpi/background.png
 [DEBUG] found drawable-long-land-ldpi splash screen at /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-long-land-ldpi/default.png
-[DEBUG] copying /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-long-land-ldpi/default.png splash screen to /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/res/drawable-long-land-ldpi/background.png
 [DEBUG] found drawable-notlong-land-hdpi splash screen at /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-notlong-land-hdpi/default.png
-[DEBUG] copying /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-notlong-land-hdpi/default.png splash screen to /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/res/drawable-notlong-land-hdpi/background.png
 [DEBUG] found drawable-notlong-land-ldpi splash screen at /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-notlong-land-ldpi/default.png
-[DEBUG] copying /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-notlong-land-ldpi/default.png splash screen to /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/res/drawable-notlong-land-ldpi/background.png
 [DEBUG] found drawable-notlong-land-mdpi splash screen at /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-notlong-land-mdpi/default.png
-[DEBUG] copying /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-notlong-land-mdpi/default.png splash screen to /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/res/drawable-notlong-land-mdpi/background.png
-[DEBUG] found splash screen at /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/assets/Resources/default.png
-[TRACE] Writing out AndroidManifest.xml
-[DEBUG] adding /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/gen/com/NegoApps/oiga/me/OigaMeActivity.java to javac build list
-[DEBUG] adding /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/gen/com/NegoApps/oiga/me/OigaMeAppInfo.java to javac build list
-[DEBUG] adding /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/gen/com/NegoApps/oiga/me/OigaMeApplication.java to javac build list
-[DEBUG] adding /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/gen/com/NegoApps/oiga/me/R.java to javac build list
-[DEBUG] Building Java Sources: "/Users/Addiel/Documents/oigame-android/Oiga.me/build/android/gen/com/NegoApps/oiga/me/OigaMeActivity.java" "/Users/Addiel/Documents/oigame-android/Oiga.me/build/android/gen/com/NegoApps/oiga/me/OigaMeAppInfo.java" "/Users/Addiel/Documents/oigame-android/Oiga.me/build/android/gen/com/NegoApps/oiga/me/OigaMeApplication.java" "/Users/Addiel/Documents/oigame-android/Oiga.me/build/android/gen/com/NegoApps/oiga/me/R.java"
-[INFO] Compiling Android Resources... This could take some time
-[DEBUG] Android classes.dex built
-[DEBUG] creating unsigned apk: /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/app-unsigned.apk
-[DEBUG] from resource zip => assets/Resources/ui/common/AllCampaWin.js
-[DEBUG] from resource zip => assets/Resources/ui/common/AllDetail.js
-[DEBUG] from resource zip => assets/Resources/ui/common/ApplicationTabGroup.js
-[DEBUG] from resource zip => assets/Resources/ui/common/CampaPrincipalesWin.js
-[DEBUG] from resource zip => assets/Resources/ui/common/SearchWin.js
-[DEBUG] from resource zip => assets/Resources/ui/common/noticia2.js
-[DEBUG] from resource zip => assets/Resources/ui/common/noticia3.js
-[DEBUG] from resource zip => assets/Resources/ui/common/noticia4.js
-[DEBUG] from resource zip => assets/Resources/ui/common/noticia5.js
-[DEBUG] from resource zip => assets/Resources/ui/handheld/android/ApplicationWindow.js
-[DEBUG] from resource zip => assets/Resources/ui/handheld/android/Style.js
-[DEBUG] from resource zip => assets/Resources/ui/tablet/ApplicationWindow.js
-[DEBUG] from resource zip => assets/Resources/Default.png
-[DEBUG] from resource zip => assets/Resources/KS_nav_ui.png
-[DEBUG] from resource zip => assets/Resources/KS_nav_views.png
-[DEBUG] from resource zip => assets/Resources/app.js
-[DEBUG] from resource zip => assets/Resources/appicon.png
-[DEBUG] from resource zip => assets/app.json
-[DEBUG] from resource zip => assets/index.json
-[DEBUG] from resource zip => assets/tiapp.xml
-[DEBUG] from resource zip => res/drawable/appicon.png
-[DEBUG] from resource zip => res/drawable/background.png
-[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
-[DEBUG] from resource zip => AndroidManifest.xml
-[DEBUG] from resource zip => resources.arsc
-[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-long-port-hdpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-long-port-ldpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/default_d44e27d97b.png
-[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/default_d44e27d97b.png
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/thirdparty.jar => org/apache/Commons-NOTICE.txt
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/thirdparty.jar => org/apache/HttpComponents-NOTICE.txt
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/thirdparty.jar => org/apache/mime4j-NOTICE.txt
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.js
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.min.js
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/build.properties
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
-[DEBUG] from JAR /Users/Addiel/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
-[DEBUG] installing native SDK libs
-[DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 1 devices/emulators
-[DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.034665 seconds on emulator to get ready
-[INFO] Installing application on device
-[INFO] Application installed. Launch from drawer on Home Screen
+[INFO] Waiting for SDCard to become available..
+[INFO] Re-launching application ... Oiga.me
+[INFO] Launching application ... Oiga.me
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.NegoApps.oiga.me/.OigaMeActivity }
+Warning: Activity not started, its current task has been brought to the front
+
