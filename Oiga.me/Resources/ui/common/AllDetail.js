@@ -1,7 +1,7 @@
 function AllDetail(){
 	var style =  require('ui/handheld/android/Style');
 	var self = Titanium.UI.createWindow(style.AllDetail.self);
-	
+
 	var url = "https://oiga.me/campaigns.json";
 	var json,  main;
  	
@@ -17,7 +17,7 @@ function AllDetail(){
 		height:'28dp',
 		width:'80dp',
 	});
-	
+
 	var botonTwitter = Titanium.UI.createButton({
 		title:'Twitter',
 		left:'170dp',
@@ -27,17 +27,17 @@ function AllDetail(){
  	
 	var xhr = Ti.Network.createHTTPClient({
 	    onload: function() {
-		
+
 			json = JSON.parse(this.responseText);
 			main = json[Titanium.App.Properties.getInt('RowId')];
-				
+
 			var image = Titanium.UI.createImageView({
 				top:'0dp',
 				height:'200dp',
 				width:'320dp',
 				image:'https://oiga.me'+main.image.home.url
 			});
-			
+
 			var titulo = Ti.UI.createLabel({
 		        text:main.name,
 		        font:{
@@ -50,18 +50,18 @@ function AllDetail(){
 				color:'#000',
 				touchEnabled:false
 		    });
-		
+
 			var contenido = Titanium.UI.createWebView({
 				html:main.body,
 				top:'290dp',
 				borderColor:'#000',
 				bottom:'5dp',
 			})
-	     
+
 			self.add(image);
 			self.add(titulo);
 			self.add(contenido);
-	
+
 		},
 	 	onerror: function(e) {
 			Ti.API.debug("STATUS: " + this.status);
@@ -71,16 +71,16 @@ function AllDetail(){
 	    },
 	    timeout:5000
 	});
-	
+
 	xhr.open("GET", url);
 	xhr.send(); 
-	
-	
+
+
 	self.add(barraShared);
 	barraShared.add(botonFacebook);
 	barraShared.add(botonTwitter);
-	
-	
+
+
 	return self;
 }
 
