@@ -6,12 +6,14 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.042606 seconds on emulator to get ready
+[DEBUG] waited 2.107328 seconds on emulator to get ready
+[INFO] Waiting for the Android Emulator to become available
+[ERROR] Timed out waiting for android.process.acore
 [DEBUG] com.NegoApps.oiga.me installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying CommonJS modules...
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/ui/common/CampaPrincipalesWin.js => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/assets/Resources/ui/common/CampaPrincipalesWin.js
+[TRACE] COPYING MODIFIED FILE: /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/ui/common/AllDetail.js => /Users/Addiel/Documents/oigame-android/Oiga.me/build/android/bin/assets/Resources/ui/common/AllDetail.js
 [INFO] Tiapp.xml unchanged, skipping class generation
 [DEBUG] Processing Android resource drawables
 [DEBUG] found drawable-long-land-hdpi splash screen at /Users/Addiel/Documents/oigame-android/Oiga.me/Resources/android/images/res-long-land-hdpi/default.png

@@ -1,7 +1,9 @@
 function AllDetail(){
 	var style =  require('ui/handheld/android/Style');
 	var self = Titanium.UI.createWindow(style.AllDetail.self);
-
+	
+	Titanium.Facebook.appid = '393525384072095';
+	//Titanium.Facebook.permissions = ['publish_stream']
 	var url = "https://oiga.me/campaigns.json";
 	var json,  main;
  	
@@ -30,6 +32,7 @@ function AllDetail(){
 
 			json = JSON.parse(this.responseText);
 			main = json[Titanium.App.Properties.getInt('RowId')];
+			Titanium.App.Properties.setString('titulo', main.name)
 
 			var image = Titanium.UI.createImageView({
 				top:'0dp',
@@ -74,7 +77,25 @@ function AllDetail(){
 
 	xhr.open("GET", url);
 	xhr.send(); 
-
+	
+	
+	botonFacebook.addEventListener('click', function(e){
+		Ti.Facebook.permissions = ['publish_stream'];
+		Ti.Facebook.authorize();
+		Ti.Facebook.requestWithGraphPath('me/feed', {message: Titanium.App.Properties.getString('titulo')+ '   https://oiga.me/'}, 
+		         "POST", function(e) {
+		    if (e.success) {
+		        alert('Compartido en Facebook') //"Success!  From FB: " + e.result);
+		    } else {
+		        if (e.error) {
+		            //alert(e.error);
+		            alert('Intenta de nuevo')
+		        } else {
+		            alert("Sin conección");
+		        }
+		    }
+		});
+	});
 
 	self.add(barraShared);
 	barraShared.add(botonFacebook);
